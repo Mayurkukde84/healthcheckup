@@ -133,7 +133,7 @@ const Section = styled.section`
   margin-top: 15px;
   height: 20rem !important;
   color: white;
-  width: 50rem;
+  width: 54rem;
   
   .title-container {
     display: flex;

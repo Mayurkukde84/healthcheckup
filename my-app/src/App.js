@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "./App.css";
-
+import RightSidebar from "./components/RightSidebar";
 import Dashboard from "./components/Dashboard";
 import Sidebar from "./components/Sidebar";
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <Div>
       <Sidebar />
       <Dashboard />
-      
+      <RightSidebar />
      
     </Div>
   );

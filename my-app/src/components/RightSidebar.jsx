@@ -8,6 +8,7 @@ function RightSidebar() {
     <Section>
       <Avatar />
       <RightMenu />
+      
     </Section>
   );
 }

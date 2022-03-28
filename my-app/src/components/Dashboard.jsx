@@ -5,7 +5,6 @@ import HeartRate from './HeartRate';
 import Navbar from './Navbar';
 import Pulserate from './Pulserate';
 import RecentActivity from './RecentActivity';
-import RightSidebar from './RightSidebar';
 
 function Dashboard() {
   return (
@@ -15,7 +14,7 @@ function Dashboard() {
         <div className="row">
           <HeartRate />
           <Pulserate />
-          <RightSidebar />
+          
         </div>
         <RecentActivity />
       </div>
