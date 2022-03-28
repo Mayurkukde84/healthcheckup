@@ -5,6 +5,7 @@ import HeartRate from './HeartRate';
 import Navbar from './Navbar';
 import Pulserate from './Pulserate';
 import RecentActivity from './RecentActivity';
+import RightSidebar from './RightSidebar';
 
 function Dashboard() {
   return (
@@ -14,6 +15,7 @@ function Dashboard() {
         <div className="row">
           <HeartRate />
           <Pulserate />
+          <RightSidebar />
         </div>
         <RecentActivity />
       </div>
@@ -36,9 +38,10 @@ const Section = styled.section`
 
     .row {
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr 9fr;
       gap: 0.2rem;
-      margin-top:20px;
+      margin-top:2px;
+      width:100%;
     }
     
   }

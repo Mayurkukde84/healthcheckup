@@ -3,13 +3,12 @@ import "./App.css";
 
 import Dashboard from "./components/Dashboard";
 import Sidebar from "./components/Sidebar";
-import RightSidebar from "./components/RightSidebar";
 function App() {
   return (
     <Div>
       <Sidebar />
       <Dashboard />
-      <RightSidebar />
+      
      
     </Div>
   );
