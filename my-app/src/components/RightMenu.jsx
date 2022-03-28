@@ -5,7 +5,7 @@ function RightMenu() {
     <Aside>
       <ul className="links">
         <li>
-          <h3>67</h3>
+          <h3>25</h3>
           <h6>Years Old</h6>
         </li>
       </ul>
@@ -23,7 +23,7 @@ function RightMenu() {
       </ul>
       <ul className="links">
         <li>
-          <h3>65 Kg</h3>
+          <h3>60 Kg</h3>
           <h6>Weight</h6>
         </li>
       </ul>
