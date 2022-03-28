@@ -173,7 +173,7 @@ function Pulserate() {
         <h3 style={{justifyContent:'flexEnd',marginTop:'3px',marginLeft:'15px',color:'#DC7633'}}><MdBloodtype /></h3>
         </div>
         
-        <h2 style={{color:'#DC7633',marginTop:'5px'}}>130/180 </h2>
+        <h2 style={{color:'#DC7633'}}>130/180 </h2>
         <h6 style={{color:'#DC7633',marginLeft:'2px'}}>mmHg</h6>
       </div>
     </div>
@@ -216,7 +216,7 @@ const Section = styled.section`
   margin-top: 18px;
   height: 18rem !important;
   color: white;
-  width: 22rem;
+  width: 23rem;
   
   .title-container {
     display: flex;
