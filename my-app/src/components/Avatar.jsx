@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import avatar from "../assets/profile.png";
-import { BiChevronDown } from "react-icons/bi";
-
+import {FaBed} from 'react-icons/fa'
 function Avatar() {
   return (
 
@@ -13,7 +12,10 @@ function Avatar() {
       </div>
       <div className="name">
         <span>Vaibhav Rangari</span>
-        <BiChevronDown />
+        
+      </div>
+      <div className="sub-title">
+        <span><FaBed /> 2nd F,Room 7,Bed 4</span>
       </div>
       
     </Section>
@@ -23,22 +25,37 @@ function Avatar() {
 }
 
 const Section = styled.section`
-  color: white;
-  display: flex;
+  color: black;
+  border: 1px solid none;
+  padding: 10px;
+  box-shadow: 5px;
+  border-radius:10px;
+  height:30%;
+  background:white;
   align-items: center;
   gap: 1rem;
-  border-bottom: 0.1rem solid #242424;
   padding-bottom: 1rem;
+  .sub-title{
+    text-align:center;
+    color:grey;
+    size:2px;
+    font-size:10px;
+    margin:3px;
+  }
   .image {
     img {
-      height: 3rem;
-      border-radius: 2rem;
+      height: 7rem;
+      border-radius: 8rem;
+      display: block;
+      margin: 0 auto;
+      
     }
   }
   .name {
-    display: flex;
+    margin-top:10px;
     align-content: center;
     gap: 0.5rem;
+    text-align:center;
     svg {
       color: var(--primary-color);
       font-size: 1.3rem;

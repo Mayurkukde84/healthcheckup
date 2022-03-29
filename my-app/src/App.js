@@ -6,7 +6,9 @@ import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <Div>
+      
       <Sidebar />
+      
       <Dashboard />
       <RightSidebar />
      

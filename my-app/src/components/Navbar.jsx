@@ -30,7 +30,8 @@ function Navbar() {
 }
 const Nav = styled.nav`
   display: flex;
-   background-color:white; 
+   background-color:white;
+    
   color: grey;
   .cal{
       font-size:20px;
